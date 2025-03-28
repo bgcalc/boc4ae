@@ -1,0 +1,95 @@
+.bootstrap-switch.bootstrap-switch-focused {
+  border-color: #ccc !important;
+}
+
+.bootstrap-switch.bootstrap-switch-focused {
+  box-shadow: none !important;
+}
+
+.shiny-input-container {
+  width: unset !important;
+}
+
+.shiny-input-radiogroup {
+  display: flex;
+}
+
+.form-group {
+  margin-bottom: 2px;
+}
+
+.pblock {
+  padding: 10px;
+}
+
+.prow {
+  width: 400px;
+  display: flex;
+}
+
+.prowdiv1 {
+  flex: 1;
+}
+
+.prowdiv2 {
+  flex: 1;
+}
+
+
+.chance {
+  color: #0062cc;
+  font-size:18pt;
+}
+
+#dice1-label, #dice2-label, #dice3-label, #dice4-label, #dice5-label {
+  margin-top:6px;
+}
+
+#target1-label, #target2-label, #target3-label, #target4-label, #target5-label {
+  margin-top:6px;
+}
+
+#dice1, #dice2, #dice3, #dice4, #dice5 {
+  padding-left:12px;
+}
+
+#target1, #target2, #target3, #target4, #target5 {
+  padding-left:11px;
+}
+
+.btn-success {
+  color: #000 !important;
+  background-color: #fff !important;
+  border-color: #000 !important;
+}
+
+.btn-danger {
+  color: #000 !important;
+  background-color: #fff !important;
+  border-color: #000 !important;
+}
+
+.btn-success.active, .btn-success:active {
+  color: #fff !important;
+  background-color: #21b611 !important;
+  border-color: #21b611 !important;
+}
+
+.btn-danger.active, .btn-danger:active {
+  color: #fff !important;
+  background-color: #b66611 !important;
+  border-color: #b66611 !important;
+}
+
+@media (hover: hover) {
+  .btn-success:hover {
+    color: #fff !important;
+    background-color: #21b61185 !important;
+    border-color: #21b61185 !important;
+  }
+  .btn-danger:hover {
+    color: #fff !important;
+    background-color: #b6661185 !important;
+    border-color: #b6661185 !important;
+  }
+}
